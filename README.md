@@ -18,3 +18,9 @@
     # edit clocking/settings.py and add u'hello22-sdoro.c9users.io' to ALLOWED_HOSTS
     ./manage.py runserver $IP:$PORT
     # firefox https://hello22-sdoro.c9users.io
+
+### 03. creating the 'clockio' app and verify it
+
+    ./manage.py startapp clockio
+    ./manage.py runserver $IP:$PORT
+    # firefox https://hello22-sdoro.c9users.io
